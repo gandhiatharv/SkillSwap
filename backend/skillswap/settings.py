@@ -5,6 +5,8 @@ Django settings for skillswap project - Production Ready
 from pathlib import Path
 from datetime import timedelta
 import os
+import dj_database_url
+
 
 # Custom User Model
 AUTH_USER_MODEL = 'skills.CustomUser'
@@ -152,7 +154,6 @@ DATABASES = {
 
 # For production with PostgreSQL, set DATABASE_URL environment variable
 if os.environ.get('DATABASE_URL'):
-    import dj_database_url
     DATABASES['default'] = dj_database_url.config(
         default=os.environ.get('DATABASE_URL'),
         conn_max_age=600,
