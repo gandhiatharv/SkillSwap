@@ -1,70 +1,289 @@
-# Getting Started with Create React App
+# 🔄 SkillSwap - Peer-to-Peer Skill Exchange Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Connect with people who can teach you what you want to learn, and teach them what you know. No money, no courses—just pure knowledge exchange.
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+- **Smart Matching System**: Three-tier matching (Exact, Subcategory, Category)
+- **Real-Time Messaging**: WebSocket-based instant messaging
+- **Video Calls**: Built-in video calling for learning sessions
+- **335+ Skills**: From coding to cooking, art to analytics
+- **Mutual Swaps**: Fair exchange - teach and learn together
 
-### `npm start`
+## 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Backend:**
+- Django 5.2+ & Django REST Framework
+- Django Channels (WebSockets)
+- SQLite (Development) / PostgreSQL (Production)
+- JWT Authentication
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Frontend:**
+- React 18+
+- React Router
+- Axios
+- Tailwind CSS
 
-### `npm test`
+## 📦 Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
+- Python 3.10+
+- Node.js 16+
+- npm or yarn
 
-### `npm run build`
+### Backend Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository
+\`\`\`bash
+git clone https://github.com/YOUR_USERNAME/SkillSwap.git
+cd SkillSwap/backend
+\`\`\`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Create virtual environment
+\`\`\`bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+\`\`\`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install dependencies
+\`\`\`bash
+pip install -r requirements.txt
+\`\`\`
 
-### `npm run eject`
+4. Run migrations
+\`\`\`bash
+python manage.py migrate
+\`\`\`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. Create superuser (optional)
+\`\`\`bash
+python manage.py createsuperuser
+\`\`\`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+6. Run development server
+\`\`\`bash
+python manage.py runserver
+\`\`\`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Frontend Setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Navigate to project root
+\`\`\`bash
+cd ..
+\`\`\`
 
-## Learn More
+2. Install dependencies
+\`\`\`bash
+npm install
+\`\`\`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Start development server
+\`\`\`bash
+npm start
+\`\`\`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The app will open at http://localhost:3000
 
-### Code Splitting
+## 🚀 Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Backend Deployment Options
 
-### Analyzing the Bundle Size
+**Option 1: Railway (Recommended for beginners)**
+- Free tier available
+- Automatic deployments from GitHub
+- Built-in PostgreSQL
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Option 2: Heroku**
+- Easy deployment with Heroku CLI
+- Free tier with limitations
 
-### Making a Progressive Web App
+**Option 3: DigitalOcean/AWS/GCP**
+- More control, requires server management
+- Use Gunicorn + Nginx
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Frontend Deployment Options
 
-### Advanced Configuration
+**Option 1: Vercel (Recommended)**
+- Free tier
+- Automatic deployments
+- CDN included
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Option 2: Netlify**
+- Similar to Vercel
+- Great for React apps
 
-### Deployment
+**Option 3: GitHub Pages**
+- Free static hosting
+- Requires build configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## ⚠️ Important Notes
 
-### `npm run build` fails to minify
+### Video Call Feature
+The video calling feature uses WebRTC with a simple signaling server through Django Channels. For production:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **WebSocket Support Required**: Your hosting provider must support WebSockets
+2. **Use Redis**: Replace InMemoryChannelLayer with Redis for production
+3. **STUN/TURN Servers**: May need external STUN/TURN servers for reliable connections across networks
+
+### Database Considerations
+- **SQLite**: Fine for development and small deployments
+- **PostgreSQL**: Recommended for production with multiple concurrent users
+- **Backup Strategy**: Implement regular database backups
+
+### Known Limitations
+- In-memory channel layers won't work across multiple server instances
+- Video calling may have NAT traversal issues without TURN servers
+- SQLite has limited concurrent write support
+
+## 📝 License
+
+MIT License - Feel free to use this project for learning and building!
+
+## 🤝 Contributing
+
+Contributions welcome! Please feel free to submit a Pull Request.
+
+## 📧 Support
+
+For issues and questions, please open a GitHub issue.
+\`\`\`
+
+---
+
+## 🌐 Production Deployment Options
+
+### Option A: Railway (Easiest - Recommended)
+
+1. **Sign up at railway.app**
+2. **Create new project from GitHub**
+3. **Add PostgreSQL database**
+4. **Configure environment variables**:
+   - `SECRET_KEY`
+   - `ALLOWED_HOSTS`
+   - `DATABASE_URL` (auto-configured)
+5. **Deploy automatically on push**
+
+**Pros:**
+- Free tier available
+- Auto-deploys from GitHub
+- Built-in database
+- WebSocket support
+
+**Cons:**
+- Free tier has limitations
+- May need paid plan for 24/7 uptime
+
+### Option B: Render.com (Good Alternative)
+
+Similar to Railway but with different pricing structure.
+
+### Option C: Traditional VPS (Most Control)
+
+**Providers:** DigitalOcean, Linode, AWS Lightsail
+
+**Requirements:**
+- Install Python, Node.js, Nginx, PostgreSQL
+- Configure Gunicorn for Django
+- Set up SSL with Let's Encrypt
+- Configure systemd for auto-restart
+
+---
+
+## 🔧 Production Checklist
+
+### Security
+- [ ] Change `SECRET_KEY` to a secure random value
+- [ ] Set `DEBUG = False`
+- [ ] Configure `ALLOWED_HOSTS`
+- [ ] Use HTTPS (SSL certificate)
+- [ ] Enable CSRF protection
+- [ ] Use environment variables for secrets
+
+### Performance
+- [ ] Use PostgreSQL instead of SQLite
+- [ ] Configure Redis for channels
+- [ ] Enable Django's caching
+- [ ] Compress static files
+- [ ] Use CDN for static assets
+
+### Reliability
+- [ ] Set up database backups
+- [ ] Configure logging
+- [ ] Monitor error rates
+- [ ] Set up health checks
+- [ ] Configure auto-restart on crash
+
+### WebSocket/Video Calls
+- [ ] Use Redis for channel layers
+- [ ] Configure STUN/TURN servers
+- [ ] Test across different networks
+- [ ] Set up monitoring for WebSocket connections
+
+---
+
+## 💡 Development vs Production
+
+### Development (Current Setup)
+- SQLite database ✅
+- InMemoryChannelLayer ✅
+- DEBUG = True ✅
+- `python manage.py runserver` ✅
+- `npm start` ✅
+
+### Production (What You Need)
+- PostgreSQL/MySQL database
+- Redis for channels
+- DEBUG = False
+- Gunicorn/uWSGI + Nginx
+- `npm run build` served by Nginx or CDN
+- Process manager (systemd/supervisor)
+- Monitoring and logging
+
+---
+
+## 🎯 Quick Start for Others
+
+Users cloning your repo can get started with:
+
+\`\`\`bash
+# Backend
+cd backend
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+
+# Frontend (new terminal)
+npm install
+npm start
+\`\`\`
+
+---
+
+## ⚡ Keeping Backend Running 24/7
+
+### For Production:
+
+**Option 1: Use a Platform Service** (Easiest)
+- Railway, Render, Heroku handle this automatically
+- No manual process management needed
+
+**Option 2: Use systemd** (Linux VPS)
+Create `/etc/systemd/system/skillswap.service`:
+
+\`\`\`ini
+[Unit]
+Description=SkillSwap Django Application
+After=network.target
+
+[Service]
+User=youruser
+Group=yourgroup
+WorkingDirectory=/path/to/Skills-Swap/backend
+Environment="PATH=/path/to/venv/bin"
+ExecStart=/path/to/venv/bin/gunicorn skillswap.wsgi:application --bind 0.0.0.0:8000
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
