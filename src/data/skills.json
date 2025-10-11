@@ -1,0 +1,2025 @@
+[
+  {
+    "id": "skill_1",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "HTML"
+  },
+  {
+    "id": "skill_2",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "CSS"
+  },
+  {
+    "id": "skill_3",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "JavaScript"
+  },
+  {
+    "id": "skill_4",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "React.js"
+  },
+  {
+    "id": "skill_5",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "Vue.js"
+  },
+  {
+    "id": "skill_6",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "Angular"
+  },
+  {
+    "id": "skill_7",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "Svelte"
+  },
+  {
+    "id": "skill_8",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "Next.js"
+  },
+  {
+    "id": "skill_9",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "Nuxt.js"
+  },
+  {
+    "id": "skill_10",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "Gatsby"
+  },
+  {
+    "id": "skill_11",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "Tailwind CSS"
+  },
+  {
+    "id": "skill_12",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "Bootstrap"
+  },
+  {
+    "id": "skill_13",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "Node.js"
+  },
+  {
+    "id": "skill_14",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "Express.js"
+  },
+  {
+    "id": "skill_15",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "PHP"
+  },
+  {
+    "id": "skill_16",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "Laravel"
+  },
+  {
+    "id": "skill_17",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "Django"
+  },
+  {
+    "id": "skill_18",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "Flask"
+  },
+  {
+    "id": "skill_19",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "Ruby on Rails"
+  },
+  {
+    "id": "skill_20",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "ASP.NET"
+  },
+  {
+    "id": "skill_21",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "GraphQL"
+  },
+  {
+    "id": "skill_22",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "REST APIs"
+  },
+  {
+    "id": "skill_23",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "Webpack"
+  },
+  {
+    "id": "skill_24",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "Vite"
+  },
+  {
+    "id": "skill_25",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "Jest"
+  },
+  {
+    "id": "skill_26",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "Mocha"
+  },
+  {
+    "id": "skill_27",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "TypeScript"
+  },
+  {
+    "id": "skill_28",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "Redux"
+  },
+  {
+    "id": "skill_29",
+    "category": "Technology",
+    "subcategory": "Web Development",
+    "name": "jQuery"
+  },
+  {
+    "id": "skill_30",
+    "category": "Technology",
+    "subcategory": "Mobile Development",
+    "name": "iOS Development"
+  },
+  {
+    "id": "skill_31",
+    "category": "Technology",
+    "subcategory": "Mobile Development",
+    "name": "Android Development"
+  },
+  {
+    "id": "skill_32",
+    "category": "Technology",
+    "subcategory": "Mobile Development",
+    "name": "React Native"
+  },
+  {
+    "id": "skill_33",
+    "category": "Technology",
+    "subcategory": "Mobile Development",
+    "name": "Flutter"
+  },
+  {
+    "id": "skill_34",
+    "category": "Technology",
+    "subcategory": "Mobile Development",
+    "name": "Swift"
+  },
+  {
+    "id": "skill_35",
+    "category": "Technology",
+    "subcategory": "Mobile Development",
+    "name": "Kotlin"
+  },
+  {
+    "id": "skill_36",
+    "category": "Technology",
+    "subcategory": "Mobile Development",
+    "name": "Java (Android)"
+  },
+  {
+    "id": "skill_37",
+    "category": "Technology",
+    "subcategory": "Mobile Development",
+    "name": "Xamarin"
+  },
+  {
+    "id": "skill_38",
+    "category": "Technology",
+    "subcategory": "Mobile Development",
+    "name": "Ionic"
+  },
+  {
+    "id": "skill_39",
+    "category": "Technology",
+    "subcategory": "Mobile Development",
+    "name": "Mobile UI/UX"
+  },
+  {
+    "id": "skill_40",
+    "category": "Technology",
+    "subcategory": "Data Science & AI",
+    "name": "Python"
+  },
+  {
+    "id": "skill_41",
+    "category": "Technology",
+    "subcategory": "Data Science & AI",
+    "name": "Pandas"
+  },
+  {
+    "id": "skill_42",
+    "category": "Technology",
+    "subcategory": "Data Science & AI",
+    "name": "NumPy"
+  },
+  {
+    "id": "skill_43",
+    "category": "Technology",
+    "subcategory": "Data Science & AI",
+    "name": "Matplotlib"
+  },
+  {
+    "id": "skill_44",
+    "category": "Technology",
+    "subcategory": "Data Science & AI",
+    "name": "Seaborn"
+  },
+  {
+    "id": "skill_45",
+    "category": "Technology",
+    "subcategory": "Data Science & AI",
+    "name": "Scikit-learn"
+  },
+  {
+    "id": "skill_46",
+    "category": "Technology",
+    "subcategory": "Data Science & AI",
+    "name": "TensorFlow"
+  },
+  {
+    "id": "skill_47",
+    "category": "Technology",
+    "subcategory": "Data Science & AI",
+    "name": "PyTorch"
+  },
+  {
+    "id": "skill_48",
+    "category": "Technology",
+    "subcategory": "Data Science & AI",
+    "name": "Data Visualization"
+  },
+  {
+    "id": "skill_49",
+    "category": "Technology",
+    "subcategory": "Data Science & AI",
+    "name": "Machine Learning"
+  },
+  {
+    "id": "skill_50",
+    "category": "Technology",
+    "subcategory": "Data Science & AI",
+    "name": "Deep Learning"
+  },
+  {
+    "id": "skill_51",
+    "category": "Technology",
+    "subcategory": "Data Science & AI",
+    "name": "Computer Vision"
+  },
+  {
+    "id": "skill_52",
+    "category": "Technology",
+    "subcategory": "Data Science & AI",
+    "name": "Natural Language Processing"
+  },
+  {
+    "id": "skill_53",
+    "category": "Technology",
+    "subcategory": "Data Science & AI",
+    "name": "Data Analysis"
+  },
+  {
+    "id": "skill_54",
+    "category": "Technology",
+    "subcategory": "Data Science & AI",
+    "name": "Data Mining"
+  },
+  {
+    "id": "skill_55",
+    "category": "Technology",
+    "subcategory": "Data Science & AI",
+    "name": "Big Data"
+  },
+  {
+    "id": "skill_56",
+    "category": "Technology",
+    "subcategory": "Data Science & AI",
+    "name": "Hadoop"
+  },
+  {
+    "id": "skill_57",
+    "category": "Technology",
+    "subcategory": "Data Science & AI",
+    "name": "Spark"
+  },
+  {
+    "id": "skill_58",
+    "category": "Technology",
+    "subcategory": "Data Science & AI",
+    "name": "AI Ethics"
+  },
+  {
+    "id": "skill_59",
+    "category": "Technology",
+    "subcategory": "Data Science & AI",
+    "name": "Statistics"
+  },
+  {
+    "id": "skill_60",
+    "category": "Technology",
+    "subcategory": "Data Science & AI",
+    "name": "Data Wrangling"
+  },
+  {
+    "id": "skill_61",
+    "category": "Technology",
+    "subcategory": "Cybersecurity",
+    "name": "Network Security"
+  },
+  {
+    "id": "skill_62",
+    "category": "Technology",
+    "subcategory": "Cybersecurity",
+    "name": "Ethical Hacking"
+  },
+  {
+    "id": "skill_63",
+    "category": "Technology",
+    "subcategory": "Cybersecurity",
+    "name": "Penetration Testing"
+  },
+  {
+    "id": "skill_64",
+    "category": "Technology",
+    "subcategory": "Cybersecurity",
+    "name": "Cryptography"
+  },
+  {
+    "id": "skill_65",
+    "category": "Technology",
+    "subcategory": "Cybersecurity",
+    "name": "Incident Response"
+  },
+  {
+    "id": "skill_66",
+    "category": "Technology",
+    "subcategory": "Cybersecurity",
+    "name": "Cyber Threat Intelligence"
+  },
+  {
+    "id": "skill_67",
+    "category": "Technology",
+    "subcategory": "Cybersecurity",
+    "name": "Firewall Management"
+  },
+  {
+    "id": "skill_68",
+    "category": "Technology",
+    "subcategory": "Cybersecurity",
+    "name": "Security Compliance"
+  },
+  {
+    "id": "skill_69",
+    "category": "Technology",
+    "subcategory": "Cybersecurity",
+    "name": "Wireshark"
+  },
+  {
+    "id": "skill_70",
+    "category": "Technology",
+    "subcategory": "Cybersecurity",
+    "name": "Metasploit"
+  },
+  {
+    "id": "skill_71",
+    "category": "Technology",
+    "subcategory": "Cybersecurity",
+    "name": "Cloud Security"
+  },
+  {
+    "id": "skill_72",
+    "category": "Arts & Design",
+    "subcategory": "Graphic Design",
+    "name": "Adobe Photoshop"
+  },
+  {
+    "id": "skill_73",
+    "category": "Arts & Design",
+    "subcategory": "Graphic Design",
+    "name": "Adobe Illustrator"
+  },
+  {
+    "id": "skill_74",
+    "category": "Arts & Design",
+    "subcategory": "Graphic Design",
+    "name": "CorelDRAW"
+  },
+  {
+    "id": "skill_75",
+    "category": "Arts & Design",
+    "subcategory": "Graphic Design",
+    "name": "Canva"
+  },
+  {
+    "id": "skill_76",
+    "category": "Arts & Design",
+    "subcategory": "Graphic Design",
+    "name": "Inkscape"
+  },
+  {
+    "id": "skill_77",
+    "category": "Arts & Design",
+    "subcategory": "Graphic Design",
+    "name": "Affinity Designer"
+  },
+  {
+    "id": "skill_78",
+    "category": "Arts & Design",
+    "subcategory": "Graphic Design",
+    "name": "Figma"
+  },
+  {
+    "id": "skill_79",
+    "category": "Arts & Design",
+    "subcategory": "Graphic Design",
+    "name": "Sketch"
+  },
+  {
+    "id": "skill_80",
+    "category": "Arts & Design",
+    "subcategory": "Graphic Design",
+    "name": "GIMP"
+  },
+  {
+    "id": "skill_81",
+    "category": "Arts & Design",
+    "subcategory": "3D & Animation",
+    "name": "Blender"
+  },
+  {
+    "id": "skill_82",
+    "category": "Arts & Design",
+    "subcategory": "3D & Animation",
+    "name": "Autodesk Maya"
+  },
+  {
+    "id": "skill_83",
+    "category": "Arts & Design",
+    "subcategory": "3D & Animation",
+    "name": "3ds Max"
+  },
+  {
+    "id": "skill_84",
+    "category": "Arts & Design",
+    "subcategory": "3D & Animation",
+    "name": "Cinema 4D"
+  },
+  {
+    "id": "skill_85",
+    "category": "Arts & Design",
+    "subcategory": "3D & Animation",
+    "name": "ZBrush"
+  },
+  {
+    "id": "skill_86",
+    "category": "Arts & Design",
+    "subcategory": "3D & Animation",
+    "name": "Unreal Engine"
+  },
+  {
+    "id": "skill_87",
+    "category": "Arts & Design",
+    "subcategory": "3D & Animation",
+    "name": "Unity 3D"
+  },
+  {
+    "id": "skill_88",
+    "category": "Arts & Design",
+    "subcategory": "3D & Animation",
+    "name": "Houdini"
+  },
+  {
+    "id": "skill_89",
+    "category": "Arts & Design",
+    "subcategory": "3D & Animation",
+    "name": "Marvelous Designer"
+  },
+  {
+    "id": "skill_90",
+    "category": "Arts & Design",
+    "subcategory": "Photography",
+    "name": "Portrait Photography"
+  },
+  {
+    "id": "skill_91",
+    "category": "Arts & Design",
+    "subcategory": "Photography",
+    "name": "Landscape Photography"
+  },
+  {
+    "id": "skill_92",
+    "category": "Arts & Design",
+    "subcategory": "Photography",
+    "name": "Product Photography"
+  },
+  {
+    "id": "skill_93",
+    "category": "Arts & Design",
+    "subcategory": "Photography",
+    "name": "Photo Editing"
+  },
+  {
+    "id": "skill_94",
+    "category": "Arts & Design",
+    "subcategory": "Photography",
+    "name": "Lightroom"
+  },
+  {
+    "id": "skill_95",
+    "category": "Arts & Design",
+    "subcategory": "Photography",
+    "name": "Event Photography"
+  },
+  {
+    "id": "skill_96",
+    "category": "Arts & Design",
+    "subcategory": "Photography",
+    "name": "Street Photography"
+  },
+  {
+    "id": "skill_97",
+    "category": "Music",
+    "subcategory": "Instruments",
+    "name": "Guitar"
+  },
+  {
+    "id": "skill_98",
+    "category": "Music",
+    "subcategory": "Instruments",
+    "name": "Piano"
+  },
+  {
+    "id": "skill_99",
+    "category": "Music",
+    "subcategory": "Instruments",
+    "name": "Drums"
+  },
+  {
+    "id": "skill_100",
+    "category": "Music",
+    "subcategory": "Instruments",
+    "name": "Violin"
+  },
+  {
+    "id": "skill_101",
+    "category": "Music",
+    "subcategory": "Instruments",
+    "name": "Cello"
+  },
+  {
+    "id": "skill_102",
+    "category": "Music",
+    "subcategory": "Instruments",
+    "name": "Flute"
+  },
+  {
+    "id": "skill_103",
+    "category": "Music",
+    "subcategory": "Instruments",
+    "name": "Saxophone"
+  },
+  {
+    "id": "skill_104",
+    "category": "Music",
+    "subcategory": "Instruments",
+    "name": "Trumpet"
+  },
+  {
+    "id": "skill_105",
+    "category": "Music",
+    "subcategory": "Instruments",
+    "name": "Clarinet"
+  },
+  {
+    "id": "skill_106",
+    "category": "Music",
+    "subcategory": "Instruments",
+    "name": "Harp"
+  },
+  {
+    "id": "skill_107",
+    "category": "Music",
+    "subcategory": "Instruments",
+    "name": "Ukulele"
+  },
+  {
+    "id": "skill_108",
+    "category": "Music",
+    "subcategory": "Instruments",
+    "name": "Bass Guitar"
+  },
+  {
+    "id": "skill_109",
+    "category": "Music",
+    "subcategory": "Music Production",
+    "name": "Ableton Live"
+  },
+  {
+    "id": "skill_110",
+    "category": "Music",
+    "subcategory": "Music Production",
+    "name": "FL Studio"
+  },
+  {
+    "id": "skill_111",
+    "category": "Music",
+    "subcategory": "Music Production",
+    "name": "Logic Pro"
+  },
+  {
+    "id": "skill_112",
+    "category": "Music",
+    "subcategory": "Music Production",
+    "name": "Pro Tools"
+  },
+  {
+    "id": "skill_113",
+    "category": "Music",
+    "subcategory": "Music Production",
+    "name": "Cubase"
+  },
+  {
+    "id": "skill_114",
+    "category": "Music",
+    "subcategory": "Music Production",
+    "name": "GarageBand"
+  },
+  {
+    "id": "skill_115",
+    "category": "Music",
+    "subcategory": "Music Production",
+    "name": "Mixing"
+  },
+  {
+    "id": "skill_116",
+    "category": "Music",
+    "subcategory": "Music Production",
+    "name": "Mastering"
+  },
+  {
+    "id": "skill_117",
+    "category": "Music",
+    "subcategory": "Music Production",
+    "name": "Sound Design"
+  },
+  {
+    "id": "skill_118",
+    "category": "Music",
+    "subcategory": "Music Production",
+    "name": "Sampling"
+  },
+  {
+    "id": "skill_119",
+    "category": "Music",
+    "subcategory": "Music Theory",
+    "name": "Reading Sheet Music"
+  },
+  {
+    "id": "skill_120",
+    "category": "Music",
+    "subcategory": "Music Theory",
+    "name": "Harmony"
+  },
+  {
+    "id": "skill_121",
+    "category": "Music",
+    "subcategory": "Music Theory",
+    "name": "Chord Progressions"
+  },
+  {
+    "id": "skill_122",
+    "category": "Music",
+    "subcategory": "Music Theory",
+    "name": "Scales"
+  },
+  {
+    "id": "skill_123",
+    "category": "Music",
+    "subcategory": "Music Theory",
+    "name": "Ear Training"
+  },
+  {
+    "id": "skill_124",
+    "category": "Music",
+    "subcategory": "Music Theory",
+    "name": "Songwriting"
+  },
+  {
+    "id": "skill_125",
+    "category": "Music",
+    "subcategory": "Music Theory",
+    "name": "Improvisation"
+  },
+  {
+    "id": "skill_126",
+    "category": "Sports & Physical Activities",
+    "subcategory": "Team Sports",
+    "name": "Soccer"
+  },
+  {
+    "id": "skill_127",
+    "category": "Sports & Physical Activities",
+    "subcategory": "Team Sports",
+    "name": "Basketball"
+  },
+  {
+    "id": "skill_128",
+    "category": "Sports & Physical Activities",
+    "subcategory": "Team Sports",
+    "name": "Baseball"
+  },
+  {
+    "id": "skill_129",
+    "category": "Sports & Physical Activities",
+    "subcategory": "Team Sports",
+    "name": "Hockey"
+  },
+  {
+    "id": "skill_130",
+    "category": "Sports & Physical Activities",
+    "subcategory": "Team Sports",
+    "name": "Volleyball"
+  },
+  {
+    "id": "skill_131",
+    "category": "Sports & Physical Activities",
+    "subcategory": "Team Sports",
+    "name": "Rugby"
+  },
+  {
+    "id": "skill_132",
+    "category": "Sports & Physical Activities",
+    "subcategory": "Team Sports",
+    "name": "American Football"
+  },
+  {
+    "id": "skill_133",
+    "category": "Sports & Physical Activities",
+    "subcategory": "Team Sports",
+    "name": "Cricket"
+  },
+  {
+    "id": "skill_134",
+    "category": "Sports & Physical Activities",
+    "subcategory": "Individual Sports",
+    "name": "Tennis"
+  },
+  {
+    "id": "skill_135",
+    "category": "Sports & Physical Activities",
+    "subcategory": "Individual Sports",
+    "name": "Badminton"
+  },
+  {
+    "id": "skill_136",
+    "category": "Sports & Physical Activities",
+    "subcategory": "Individual Sports",
+    "name": "Swimming"
+  },
+  {
+    "id": "skill_137",
+    "category": "Sports & Physical Activities",
+    "subcategory": "Individual Sports",
+    "name": "Running"
+  },
+  {
+    "id": "skill_138",
+    "category": "Sports & Physical Activities",
+    "subcategory": "Individual Sports",
+    "name": "Cycling"
+  },
+  {
+    "id": "skill_139",
+    "category": "Sports & Physical Activities",
+    "subcategory": "Individual Sports",
+    "name": "Boxing"
+  },
+  {
+    "id": "skill_140",
+    "category": "Sports & Physical Activities",
+    "subcategory": "Individual Sports",
+    "name": "Martial Arts"
+  },
+  {
+    "id": "skill_141",
+    "category": "Sports & Physical Activities",
+    "subcategory": "Individual Sports",
+    "name": "Yoga"
+  },
+  {
+    "id": "skill_142",
+    "category": "Sports & Physical Activities",
+    "subcategory": "Individual Sports",
+    "name": "Pilates"
+  },
+  {
+    "id": "skill_143",
+    "category": "Sports & Physical Activities",
+    "subcategory": "Individual Sports",
+    "name": "Climbing"
+  },
+  {
+    "id": "skill_144",
+    "category": "Sports & Physical Activities",
+    "subcategory": "Individual Sports",
+    "name": "Golf"
+  },
+  {
+    "id": "skill_145",
+    "category": "Languages",
+    "subcategory": "Spoken Languages",
+    "name": "English"
+  },
+  {
+    "id": "skill_146",
+    "category": "Languages",
+    "subcategory": "Spoken Languages",
+    "name": "Spanish"
+  },
+  {
+    "id": "skill_147",
+    "category": "Languages",
+    "subcategory": "Spoken Languages",
+    "name": "French"
+  },
+  {
+    "id": "skill_148",
+    "category": "Languages",
+    "subcategory": "Spoken Languages",
+    "name": "German"
+  },
+  {
+    "id": "skill_149",
+    "category": "Languages",
+    "subcategory": "Spoken Languages",
+    "name": "Mandarin Chinese"
+  },
+  {
+    "id": "skill_150",
+    "category": "Languages",
+    "subcategory": "Spoken Languages",
+    "name": "Cantonese"
+  },
+  {
+    "id": "skill_151",
+    "category": "Languages",
+    "subcategory": "Spoken Languages",
+    "name": "Japanese"
+  },
+  {
+    "id": "skill_152",
+    "category": "Languages",
+    "subcategory": "Spoken Languages",
+    "name": "Korean"
+  },
+  {
+    "id": "skill_153",
+    "category": "Languages",
+    "subcategory": "Spoken Languages",
+    "name": "Italian"
+  },
+  {
+    "id": "skill_154",
+    "category": "Languages",
+    "subcategory": "Spoken Languages",
+    "name": "Portuguese"
+  },
+  {
+    "id": "skill_155",
+    "category": "Languages",
+    "subcategory": "Spoken Languages",
+    "name": "Russian"
+  },
+  {
+    "id": "skill_156",
+    "category": "Languages",
+    "subcategory": "Spoken Languages",
+    "name": "Arabic"
+  },
+  {
+    "id": "skill_157",
+    "category": "Languages",
+    "subcategory": "Spoken Languages",
+    "name": "Hindi"
+  },
+  {
+    "id": "skill_158",
+    "category": "Languages",
+    "subcategory": "Spoken Languages",
+    "name": "Bengali"
+  },
+  {
+    "id": "skill_159",
+    "category": "Languages",
+    "subcategory": "Spoken Languages",
+    "name": "Turkish"
+  },
+  {
+    "id": "skill_160",
+    "category": "Languages",
+    "subcategory": "Sign Languages",
+    "name": "ASL (American Sign Language)"
+  },
+  {
+    "id": "skill_161",
+    "category": "Languages",
+    "subcategory": "Sign Languages",
+    "name": "BSL (British Sign Language)"
+  },
+  {
+    "id": "skill_162",
+    "category": "Languages",
+    "subcategory": "Sign Languages",
+    "name": "Auslan (Australian Sign Language)"
+  },
+  {
+    "id": "skill_163",
+    "category": "Business & Career",
+    "subcategory": "Entrepreneurship",
+    "name": "Business Planning"
+  },
+  {
+    "id": "skill_164",
+    "category": "Business & Career",
+    "subcategory": "Entrepreneurship",
+    "name": "Pitching"
+  },
+  {
+    "id": "skill_165",
+    "category": "Business & Career",
+    "subcategory": "Entrepreneurship",
+    "name": "Startup Funding"
+  },
+  {
+    "id": "skill_166",
+    "category": "Business & Career",
+    "subcategory": "Entrepreneurship",
+    "name": "Market Research"
+  },
+  {
+    "id": "skill_167",
+    "category": "Business & Career",
+    "subcategory": "Marketing",
+    "name": "Digital Marketing"
+  },
+  {
+    "id": "skill_168",
+    "category": "Business & Career",
+    "subcategory": "Marketing",
+    "name": "SEO"
+  },
+  {
+    "id": "skill_169",
+    "category": "Business & Career",
+    "subcategory": "Marketing",
+    "name": "Social Media Marketing"
+  },
+  {
+    "id": "skill_170",
+    "category": "Business & Career",
+    "subcategory": "Marketing",
+    "name": "Email Marketing"
+  },
+  {
+    "id": "skill_171",
+    "category": "Business & Career",
+    "subcategory": "Marketing",
+    "name": "Branding"
+  },
+  {
+    "id": "skill_172",
+    "category": "Business & Career",
+    "subcategory": "Marketing",
+    "name": "Content Marketing"
+  },
+  {
+    "id": "skill_173",
+    "category": "Business & Career",
+    "subcategory": "Marketing",
+    "name": "Google Ads"
+  },
+  {
+    "id": "skill_174",
+    "category": "Business & Career",
+    "subcategory": "Marketing",
+    "name": "Facebook Ads"
+  },
+  {
+    "id": "skill_175",
+    "category": "Business & Career",
+    "subcategory": "Finance",
+    "name": "Accounting"
+  },
+  {
+    "id": "skill_176",
+    "category": "Business & Career",
+    "subcategory": "Finance",
+    "name": "Bookkeeping"
+  },
+  {
+    "id": "skill_177",
+    "category": "Business & Career",
+    "subcategory": "Finance",
+    "name": "Investing"
+  },
+  {
+    "id": "skill_178",
+    "category": "Business & Career",
+    "subcategory": "Finance",
+    "name": "Stock Trading"
+  },
+  {
+    "id": "skill_179",
+    "category": "Business & Career",
+    "subcategory": "Finance",
+    "name": "Cryptocurrency"
+  },
+  {
+    "id": "skill_180",
+    "category": "Business & Career",
+    "subcategory": "Finance",
+    "name": "Financial Analysis"
+  },
+  
+  {
+    "id": "skill_181",
+    "category": "Science",
+    "subcategory": "Biology",
+    "name": "Cell Biology"
+  },
+  {
+    "id": "skill_182",
+    "category": "Science",
+    "subcategory": "Biology",
+    "name": "Genetics"
+  },
+  {
+    "id": "skill_183",
+    "category": "Science",
+    "subcategory": "Biology",
+    "name": "Evolutionary Biology"
+  },
+  {
+    "id": "skill_184",
+    "category": "Science",
+    "subcategory": "Biology",
+    "name": "Microbiology"
+  },
+  {
+    "id": "skill_185",
+    "category": "Science",
+    "subcategory": "Biology",
+    "name": "Human Anatomy"
+  },
+  {
+    "id": "skill_186",
+    "category": "Science",
+    "subcategory": "Biology",
+    "name": "Physiology"
+  },
+  {
+    "id": "skill_187",
+    "category": "Science",
+    "subcategory": "Biology",
+    "name": "Ecology"
+  },
+  {
+    "id": "skill_188",
+    "category": "Science",
+    "subcategory": "Biology",
+    "name": "Botany"
+  },
+  {
+    "id": "skill_189",
+    "category": "Science",
+    "subcategory": "Biology",
+    "name": "Zoology"
+  },
+  {
+    "id": "skill_190",
+    "category": "Science",
+    "subcategory": "Biology",
+    "name": "Molecular Biology"
+  },
+  {
+    "id": "skill_191",
+    "category": "Science",
+    "subcategory": "Chemistry",
+    "name": "Organic Chemistry"
+  },
+  {
+    "id": "skill_192",
+    "category": "Science",
+    "subcategory": "Chemistry",
+    "name": "Inorganic Chemistry"
+  },
+  {
+    "id": "skill_193",
+    "category": "Science",
+    "subcategory": "Chemistry",
+    "name": "Physical Chemistry"
+  },
+  {
+    "id": "skill_194",
+    "category": "Science",
+    "subcategory": "Chemistry",
+    "name": "Analytical Chemistry"
+  },
+  {
+    "id": "skill_195",
+    "category": "Science",
+    "subcategory": "Chemistry",
+    "name": "Biochemistry"
+  },
+  {
+    "id": "skill_196",
+    "category": "Science",
+    "subcategory": "Chemistry",
+    "name": "Environmental Chemistry"
+  },
+  {
+    "id": "skill_197",
+    "category": "Science",
+    "subcategory": "Chemistry",
+    "name": "Chemical Reactions"
+  },
+  {
+    "id": "skill_198",
+    "category": "Science",
+    "subcategory": "Chemistry",
+    "name": "Stoichiometry"
+  },
+  {
+    "id": "skill_199",
+    "category": "Science",
+    "subcategory": "Chemistry",
+    "name": "Periodic Table"
+  },
+  {
+    "id": "skill_200",
+    "category": "Science",
+    "subcategory": "Chemistry",
+    "name": "Lab Techniques"
+  },
+  {
+    "id": "skill_201",
+    "category": "Science",
+    "subcategory": "Physics",
+    "name": "Classical Mechanics"
+  },
+  {
+    "id": "skill_202",
+    "category": "Science",
+    "subcategory": "Physics",
+    "name": "Thermodynamics"
+  },
+  {
+    "id": "skill_203",
+    "category": "Science",
+    "subcategory": "Physics",
+    "name": "Electromagnetism"
+  },
+  {
+    "id": "skill_204",
+    "category": "Science",
+    "subcategory": "Physics",
+    "name": "Quantum Mechanics"
+  },
+  {
+    "id": "skill_205",
+    "category": "Science",
+    "subcategory": "Physics",
+    "name": "Optics"
+  },
+  {
+    "id": "skill_206",
+    "category": "Science",
+    "subcategory": "Physics",
+    "name": "Nuclear Physics"
+  },
+  {
+    "id": "skill_207",
+    "category": "Science",
+    "subcategory": "Physics",
+    "name": "Particle Physics"
+  },
+  {
+    "id": "skill_208",
+    "category": "Science",
+    "subcategory": "Physics",
+    "name": "Astrophysics"
+  },
+  {
+    "id": "skill_209",
+    "category": "Science",
+    "subcategory": "Physics",
+    "name": "Fluid Mechanics"
+  },
+  {
+    "id": "skill_210",
+    "category": "Science",
+    "subcategory": "Physics",
+    "name": "Acoustics"
+  },
+  {
+    "id": "skill_211",
+    "category": "Science",
+    "subcategory": "Earth Science",
+    "name": "Geology"
+  },
+  {
+    "id": "skill_212",
+    "category": "Science",
+    "subcategory": "Earth Science",
+    "name": "Meteorology"
+  },
+  {
+    "id": "skill_213",
+    "category": "Science",
+    "subcategory": "Earth Science",
+    "name": "Oceanography"
+  },
+  {
+    "id": "skill_214",
+    "category": "Science",
+    "subcategory": "Earth Science",
+    "name": "Paleontology"
+  },
+  {
+    "id": "skill_215",
+    "category": "Science",
+    "subcategory": "Earth Science",
+    "name": "Environmental Science"
+  },
+  {
+    "id": "skill_216",
+    "category": "Science",
+    "subcategory": "Astronomy",
+    "name": "Planetary Science"
+  },
+  {
+    "id": "skill_217",
+    "category": "Science",
+    "subcategory": "Astronomy",
+    "name": "Stellar Astronomy"
+  },
+  {
+    "id": "skill_218",
+    "category": "Science",
+    "subcategory": "Astronomy",
+    "name": "Cosmology"
+  },
+  {
+    "id": "skill_219",
+    "category": "Science",
+    "subcategory": "Astronomy",
+    "name": "Observational Astronomy"
+  },
+  {
+    "id": "skill_220",
+    "category": "Science",
+    "subcategory": "Astronomy",
+    "name": "Radio Astronomy"
+  },
+  {
+    "id": "skill_221",
+    "category": "Science",
+    "subcategory": "Environmental Science",
+    "name": "Conservation Biology"
+  },
+  {
+    "id": "skill_222",
+    "category": "Science",
+    "subcategory": "Environmental Science",
+    "name": "Sustainability"
+  },
+  {
+    "id": "skill_223",
+    "category": "Science",
+    "subcategory": "Environmental Science",
+    "name": "Climate Change Science"
+  },
+  {
+    "id": "skill_224",
+    "category": "Science",
+    "subcategory": "Environmental Science",
+    "name": "Waste Management"
+  },
+  {
+    "id": "skill_225",
+    "category": "Science",
+    "subcategory": "Environmental Science",
+    "name": "Pollution Control"
+  },
+  {
+    "id": "skill_226",
+    "category": "Mathematics",
+    "subcategory": "Algebra",
+    "name": "Linear Equations"
+  },
+  {
+    "id": "skill_227",
+    "category": "Mathematics",
+    "subcategory": "Algebra",
+    "name": "Quadratic Equations"
+  },
+  {
+    "id": "skill_228",
+    "category": "Mathematics",
+    "subcategory": "Algebra",
+    "name": "Polynomials"
+  },
+  {
+    "id": "skill_229",
+    "category": "Mathematics",
+    "subcategory": "Algebra",
+    "name": "Factoring"
+  },
+  {
+    "id": "skill_230",
+    "category": "Mathematics",
+    "subcategory": "Algebra",
+    "name": "Inequalities"
+  },
+  {
+    "id": "skill_231",
+    "category": "Mathematics",
+    "subcategory": "Algebra",
+    "name": "Functions"
+  },
+  {
+    "id": "skill_232",
+    "category": "Mathematics",
+    "subcategory": "Algebra",
+    "name": "Exponents and Logarithms"
+  },
+  {
+    "id": "skill_233",
+    "category": "Mathematics",
+    "subcategory": "Geometry",
+    "name": "Euclidean Geometry"
+  },
+  {
+    "id": "skill_234",
+    "category": "Mathematics",
+    "subcategory": "Geometry",
+    "name": "Coordinate Geometry"
+  },
+  {
+    "id": "skill_235",
+    "category": "Mathematics",
+    "subcategory": "Geometry",
+    "name": "Solid Geometry"
+  },
+  {
+    "id": "skill_236",
+    "category": "Mathematics",
+    "subcategory": "Geometry",
+    "name": "Trigonometry"
+  },
+  {
+    "id": "skill_237",
+    "category": "Mathematics",
+    "subcategory": "Geometry",
+    "name": "Congruence and Similarity"
+  },
+  {
+    "id": "skill_238",
+    "category": "Mathematics",
+    "subcategory": "Calculus",
+    "name": "Limits"
+  },
+  {
+    "id": "skill_239",
+    "category": "Mathematics",
+    "subcategory": "Calculus",
+    "name": "Derivatives"
+  },
+  {
+    "id": "skill_240",
+    "category": "Mathematics",
+    "subcategory": "Calculus",
+    "name": "Integrals"
+  },
+  {
+    "id": "skill_241",
+    "category": "Mathematics",
+    "subcategory": "Calculus",
+    "name": "Differential Equations"
+  },
+  {
+    "id": "skill_242",
+    "category": "Mathematics",
+    "subcategory": "Calculus",
+    "name": "Multivariable Calculus"
+  },
+  {
+    "id": "skill_243",
+    "category": "Mathematics",
+    "subcategory": "Statistics",
+    "name": "Descriptive Statistics"
+  },
+  {
+    "id": "skill_244",
+    "category": "Mathematics",
+    "subcategory": "Statistics",
+    "name": "Inferential Statistics"
+  },
+  {
+    "id": "skill_245",
+    "category": "Mathematics",
+    "subcategory": "Statistics",
+    "name": "Probability Theory"
+  },
+  {
+    "id": "skill_246",
+    "category": "Mathematics",
+    "subcategory": "Statistics",
+    "name": "Regression Analysis"
+  },
+  {
+    "id": "skill_247",
+    "category": "Mathematics",
+    "subcategory": "Statistics",
+    "name": "Hypothesis Testing"
+  },
+  {
+    "id": "skill_248",
+    "category": "Mathematics",
+    "subcategory": "Discrete Mathematics",
+    "name": "Set Theory"
+  },
+  {
+    "id": "skill_249",
+    "category": "Mathematics",
+    "subcategory": "Discrete Mathematics",
+    "name": "Graph Theory"
+  },
+  {
+    "id": "skill_250",
+    "category": "Mathematics",
+    "subcategory": "Discrete Mathematics",
+    "name": "Combinatorics"
+  },
+  {
+    "id": "skill_251",
+    "category": "Mathematics",
+    "subcategory": "Discrete Mathematics",
+    "name": "Logic"
+  },
+  {
+    "id": "skill_252",
+    "category": "Mathematics",
+    "subcategory": "Discrete Mathematics",
+    "name": "Number Theory"
+  },
+  
+  {
+    "id": "skill_253",
+    "category": "Health & Wellness",
+    "subcategory": "Nutrition",
+    "name": "Macronutrients"
+  },
+  {
+    "id": "skill_254",
+    "category": "Health & Wellness",
+    "subcategory": "Nutrition",
+    "name": "Micronutrients"
+  },
+  {
+    "id": "skill_255",
+    "category": "Health & Wellness",
+    "subcategory": "Nutrition",
+    "name": "Diet Planning"
+  },
+  {
+    "id": "skill_256",
+    "category": "Health & Wellness",
+    "subcategory": "Nutrition",
+    "name": "Weight Management"
+  },
+  {
+    "id": "skill_257",
+    "category": "Health & Wellness",
+    "subcategory": "Fitness",
+    "name": "Strength Training"
+  },
+  {
+    "id": "skill_258",
+    "category": "Health & Wellness",
+    "subcategory": "Fitness",
+    "name": "Cardiovascular Training"
+  },
+  {
+    "id": "skill_259",
+    "category": "Health & Wellness",
+    "subcategory": "Fitness",
+    "name": "Flexibility Training"
+  },
+  {
+    "id": "skill_260",
+    "category": "Health & Wellness",
+    "subcategory": "Fitness",
+    "name": "Yoga"
+  },
+  {
+    "id": "skill_261",
+    "category": "Health & Wellness",
+    "subcategory": "Mental Health",
+    "name": "Stress Management"
+  },
+  {
+    "id": "skill_262",
+    "category": "Health & Wellness",
+    "subcategory": "Mental Health",
+    "name": "Mindfulness Meditation"
+  },
+  {
+    "id": "skill_263",
+    "category": "Health & Wellness",
+    "subcategory": "Mental Health",
+    "name": "Cognitive Behavioral Therapy Basics"
+  },
+  {
+    "id": "skill_264",
+    "category": "Health & Wellness",
+    "subcategory": "Mental Health",
+    "name": "Emotional Intelligence"
+  },
+  {
+    "id": "skill_265",
+    "category": "Health & Wellness",
+    "subcategory": "First Aid & Safety",
+    "name": "CPR"
+  },
+  {
+    "id": "skill_266",
+    "category": "Health & Wellness",
+    "subcategory": "First Aid & Safety",
+    "name": "Basic First Aid"
+  },
+  {
+    "id": "skill_267",
+    "category": "Health & Wellness",
+    "subcategory": "First Aid & Safety",
+    "name": "Emergency Response"
+  },
+  {
+    "id": "skill_268",
+    "category": "Health & Wellness",
+    "subcategory": "First Aid & Safety",
+    "name": "Safety Protocols"
+  },
+  {
+    "id": "skill_269",
+    "category": "Health & Wellness",
+    "subcategory": "Sleep Science",
+    "name": "Sleep Hygiene"
+  },
+  {
+    "id": "skill_270",
+    "category": "Health & Wellness",
+    "subcategory": "Sleep Science",
+    "name": "Circadian Rhythms"
+  },
+  {
+    "id": "skill_271",
+    "category": "English Language Arts",
+    "subcategory": "Literature",
+    "name": "Poetry Analysis"
+  },
+  {
+    "id": "skill_272",
+    "category": "English Language Arts",
+    "subcategory": "Literature",
+    "name": "Novel Analysis"
+  },
+  {
+    "id": "skill_273",
+    "category": "English Language Arts",
+    "subcategory": "Literature",
+    "name": "Drama and Plays"
+  },
+  {
+    "id": "skill_274",
+    "category": "English Language Arts",
+    "subcategory": "Literature",
+    "name": "Literary Devices"
+  },
+  {
+    "id": "skill_275",
+    "category": "English Language Arts",
+    "subcategory": "Writing",
+    "name": "Creative Writing"
+  },
+  {
+    "id": "skill_276",
+    "category": "English Language Arts",
+    "subcategory": "Writing",
+    "name": "Essay Writing"
+  },
+  {
+    "id": "skill_277",
+    "category": "English Language Arts",
+    "subcategory": "Writing",
+    "name": "Technical Writing"
+  },
+  {
+    "id": "skill_278",
+    "category": "English Language Arts",
+    "subcategory": "Writing",
+    "name": "Research Paper Writing"
+  },
+  {
+    "id": "skill_279",
+    "category": "English Language Arts",
+    "subcategory": "Writing",
+    "name": "Grammar and Syntax"
+  },
+  {
+    "id": "skill_280",
+    "category": "English Language Arts",
+    "subcategory": "Writing",
+    "name": "Vocabulary Building"
+  },
+  {
+    "id": "skill_281",
+    "category": "English Language Arts",
+    "subcategory": "Speaking & Listening",
+    "name": "Public Speaking"
+  },
+  {
+    "id": "skill_282",
+    "category": "English Language Arts",
+    "subcategory": "Speaking & Listening",
+    "name": "Debate"
+  },
+  {
+    "id": "skill_283",
+    "category": "English Language Arts",
+    "subcategory": "Speaking & Listening",
+    "name": "Active Listening"
+  },
+  {
+    "id": "skill_284",
+    "category": "English Language Arts",
+    "subcategory": "Speaking & Listening",
+    "name": "Presentation Skills"
+  },
+  
+  {
+    "id": "skill_285",
+    "category": "Social Studies",
+    "subcategory": "History",
+    "name": "Ancient Civilizations"
+  },
+  {
+    "id": "skill_286",
+    "category": "Social Studies",
+    "subcategory": "History",
+    "name": "Medieval History"
+  },
+  {
+    "id": "skill_287",
+    "category": "Social Studies",
+    "subcategory": "History",
+    "name": "Modern History"
+  },
+  {
+    "id": "skill_288",
+    "category": "Social Studies",
+    "subcategory": "History",
+    "name": "World Wars"
+  },
+  {
+    "id": "skill_289",
+    "category": "Social Studies",
+    "subcategory": "Geography",
+    "name": "Physical Geography"
+  },
+  {
+    "id": "skill_290",
+    "category": "Social Studies",
+    "subcategory": "Geography",
+    "name": "Human Geography"
+  },
+  {
+    "id": "skill_291",
+    "category": "Social Studies",
+    "subcategory": "Geography",
+    "name": "Cartography"
+  },
+  {
+    "id": "skill_292",
+    "category": "Social Studies",
+    "subcategory": "Government & Civics",
+    "name": "Political Systems"
+  },
+  {
+    "id": "skill_293",
+    "category": "Social Studies",
+    "subcategory": "Government & Civics",
+    "name": "Constitutional Law"
+  },
+  {
+    "id": "skill_294",
+    "category": "Social Studies",
+    "subcategory": "Government & Civics",
+    "name": "Elections & Voting"
+  },
+  {
+    "id": "skill_295",
+    "category": "Social Studies",
+    "subcategory": "Economics",
+    "name": "Microeconomics"
+  },
+  {
+    "id": "skill_296",
+    "category": "Social Studies",
+    "subcategory": "Economics",
+    "name": "Macroeconomics"
+  },
+  {
+    "id": "skill_297",
+    "category": "Social Studies",
+    "subcategory": "Economics",
+    "name": "Personal Finance"
+  },
+  {
+    "id": "skill_298",
+    "category": "Social Studies",
+    "subcategory": "Sociology",
+    "name": "Social Theories"
+  },
+  {
+    "id": "skill_299",
+    "category": "Social Studies",
+    "subcategory": "Sociology",
+    "name": "Cultural Studies"
+  },
+  {
+    "id": "skill_300",
+    "category": "Social Studies",
+    "subcategory": "Anthropology",
+    "name": "Archaeology"
+  },
+  {
+    "id": "skill_301",
+    "category": "Culinary Arts",
+    "subcategory": "Cooking Techniques",
+    "name": "Sautéing"
+  },
+  {
+    "id": "skill_302",
+    "category": "Culinary Arts",
+    "subcategory": "Cooking Techniques",
+    "name": "Grilling"
+  },
+  {
+    "id": "skill_303",
+    "category": "Culinary Arts",
+    "subcategory": "Cooking Techniques",
+    "name": "Baking"
+  },
+  {
+    "id": "skill_304",
+    "category": "Culinary Arts",
+    "subcategory": "Cooking Techniques",
+    "name": "Roasting"
+  },
+  {
+    "id": "skill_305",
+    "category": "Culinary Arts",
+    "subcategory": "Cuisines",
+    "name": "Italian Cuisine"
+  },
+  {
+    "id": "skill_306",
+    "category": "Culinary Arts",
+    "subcategory": "Cuisines",
+    "name": "French Cuisine"
+  },
+  {
+    "id": "skill_307",
+    "category": "Culinary Arts",
+    "subcategory": "Cuisines",
+    "name": "Japanese Cuisine"
+  },
+  {
+    "id": "skill_308",
+    "category": "Culinary Arts",
+    "subcategory": "Cuisines",
+    "name": "Indian Cuisine"
+  },
+  {
+    "id": "skill_309",
+    "category": "Culinary Arts",
+    "subcategory": "Baking & Pastry",
+    "name": "Bread Making"
+  },
+  {
+    "id": "skill_310",
+    "category": "Culinary Arts",
+    "subcategory": "Baking & Pastry",
+    "name": "Cake Decorating"
+  },
+  {
+    "id": "skill_311",
+    "category": "Culinary Arts",
+    "subcategory": "Baking & Pastry",
+    "name": "Chocolate Tempering"
+  },
+  {
+    "id": "skill_312",
+    "category": "Crafts & DIY",
+    "subcategory": "Textile Crafts",
+    "name": "Knitting"
+  },
+  {
+    "id": "skill_313",
+    "category": "Crafts & DIY",
+    "subcategory": "Textile Crafts",
+    "name": "Crocheting"
+  },
+  {
+    "id": "skill_314",
+    "category": "Crafts & DIY",
+    "subcategory": "Textile Crafts",
+    "name": "Sewing"
+  },
+  {
+    "id": "skill_315",
+    "category": "Crafts & DIY",
+    "subcategory": "Textile Crafts",
+    "name": "Embroidery"
+  },
+  {
+    "id": "skill_316",
+    "category": "Crafts & DIY",
+    "subcategory": "Woodworking",
+    "name": "Carpentry"
+  },
+  {
+    "id": "skill_317",
+    "category": "Crafts & DIY",
+    "subcategory": "Woodworking",
+    "name": "Wood Carving"
+  },
+  {
+    "id": "skill_318",
+    "category": "Crafts & DIY",
+    "subcategory": "Woodworking",
+    "name": "Furniture Making"
+  },
+  {
+    "id": "skill_319",
+    "category": "Crafts & DIY",
+    "subcategory": "Painting & Drawing",
+    "name": "Watercolor Painting"
+  },
+  {
+    "id": "skill_320",
+    "category": "Crafts & DIY",
+    "subcategory": "Painting & Drawing",
+    "name": "Oil Painting"
+  },
+  {
+    "id": "skill_321",
+    "category": "Crafts & DIY",
+    "subcategory": "Painting & Drawing",
+    "name": "Sketching"
+  },
+  {
+    "id": "skill_322",
+    "category": "Crafts & DIY",
+    "subcategory": "Painting & Drawing",
+    "name": "Acrylic Painting"
+  },
+  {
+    "id": "skill_323",
+    "category": "Crafts & DIY",
+    "subcategory": "Jewelry Making",
+    "name": "Beading"
+  },
+  {
+    "id": "skill_324",
+    "category": "Crafts & DIY",
+    "subcategory": "Jewelry Making",
+    "name": "Metalworking"
+  },
+  {
+    "id": "skill_325",
+    "category": "Crafts & DIY",
+    "subcategory": "Jewelry Making",
+    "name": "Wire Wrapping"
+  },
+  {
+    "id": "skill_326",
+    "category": "Life Skills & Personal Development",
+    "subcategory": "Financial Literacy",
+    "name": "Budgeting"
+  },
+  {
+    "id": "skill_327",
+    "category": "Life Skills & Personal Development",
+    "subcategory": "Financial Literacy",
+    "name": "Saving and Investing"
+  },
+  {
+    "id": "skill_328",
+    "category": "Life Skills & Personal Development",
+    "subcategory": "Financial Literacy",
+    "name": "Taxes Basics"
+  },
+  {
+    "id": "skill_329",
+    "category": "Life Skills & Personal Development",
+    "subcategory": "Communication",
+    "name": "Effective Communication"
+  },
+  {
+    "id": "skill_330",
+    "category": "Life Skills & Personal Development",
+    "subcategory": "Communication",
+    "name": "Negotiation Skills"
+  },
+  {
+    "id": "skill_331",
+    "category": "Life Skills & Personal Development",
+    "subcategory": "Communication",
+    "name": "Conflict Resolution"
+  },
+  {
+    "id": "skill_332",
+    "category": "Life Skills & Personal Development",
+    "subcategory": "Time Management",
+    "name": "Prioritization"
+  },
+  {
+    "id": "skill_333",
+    "category": "Life Skills & Personal Development",
+    "subcategory": "Time Management",
+    "name": "Goal Setting"
+  },
+  {
+    "id": "skill_334",
+    "category": "Life Skills & Personal Development",
+    "subcategory": "Self-Care",
+    "name": "Mindfulness"
+  },
+  {
+    "id": "skill_335",
+    "category": "Life Skills & Personal Development",
+    "subcategory": "Self-Care",
+    "name": "Stress Management"
+  },
+  {
+    "id": "skill_336",
+    "category": "Life Skills & Personal Development",
+    "subcategory": "Self-Care",
+    "name": "Healthy Habits"
+  }
+
+
+
+
+]

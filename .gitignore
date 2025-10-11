@@ -1,0 +1,121 @@
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+debug.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.production.local
+.env.development.local
+.env.test.local
+
+# Node / React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+/.pnp
+.pnp.js
+
+# React / Create React App
+/build
+/coverage
+
+# Testing
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+
+# Redis
+dump.rdb
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# Certificates
+*.pem
+*.key
+*.crt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
