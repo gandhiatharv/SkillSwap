@@ -18,10 +18,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-*k#9&qvo6w)y&a9sc+jctcq=g)%3i_@mruzncbyh*fi(**q+2k')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DEBUG', 'True') == 'True'
+DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
 # Allow configuration of hosts via environment variable
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1,0.0.0.0').split(',')
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1,0.0.0.0,skillswap-2-dkwj.onrender.com').split(',')
 
 # Application definition
 INSTALLED_APPS = [
@@ -144,7 +144,7 @@ SIMPLE_JWT = {
 }
 
 # Database
-# FIXED: Handle both development (SQLite) and production (PostgreSQL)
+# FIXED: Use psycopg (v3) which works with Python 3.13
 if os.environ.get('DATABASE_URL'):
     # Production with PostgreSQL (Render provides DATABASE_URL)
     DATABASES = {
@@ -287,14 +287,28 @@ CACHES = {
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 SESSION_COOKIE_AGE = 86400  # 24 hours
 
-# Security settings for production
+# ============================================
+# SECURITY SETTINGS FOR PRODUCTION (RENDER)
+# ============================================
 if not DEBUG:
-    SECURE_SSL_REDIRECT = True
+    # CRITICAL FIX: Let Render handle HTTPS redirect
+    # Setting SECURE_SSL_REDIRECT=True causes redirect loop on Render
+    SECURE_SSL_REDIRECT = False  # ✅ FIXED - Render does HTTPS at proxy level
+    
+    # Tell Django to trust Render's proxy headers
+    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+    
+    # Cookie security
     SESSION_COOKIE_SECURE = True
     CSRF_COOKIE_SECURE = True
+    
+    # Browser security
     SECURE_BROWSER_XSS_FILTER = True
     SECURE_CONTENT_TYPE_NOSNIFF = True
     X_FRAME_OPTIONS = 'DENY'
-    SECURE_HSTS_SECONDS = 31536000
-    SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-    SECURE_HSTS_PRELOAD = True
+    
+    # HSTS - Disabled initially to avoid issues
+    # Enable after confirming deployment works
+    SECURE_HSTS_SECONDS = 0
+    SECURE_HSTS_INCLUDE_SUBDOMAINS = False
+    SECURE_HSTS_PRELOAD = False
