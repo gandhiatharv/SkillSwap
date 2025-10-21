@@ -293,14 +293,14 @@ SESSION_COOKIE_AGE = 86400  # 24 hours
 if not DEBUG:
     # CRITICAL FIX: Let Render handle HTTPS redirect
     # Setting SECURE_SSL_REDIRECT=True causes redirect loop on Render
-    SECURE_SSL_REDIRECT = False  # ✅ FIXED - Render does HTTPS at proxy level
+    #SECURE_SSL_REDIRECT = False  # ✅ FIXED - Render does HTTPS at proxy level
     
     # Tell Django to trust Render's proxy headers
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
     
     # Cookie security
-    SESSION_COOKIE_SECURE = True
-    CSRF_COOKIE_SECURE = True
+    #SESSION_COOKIE_SECURE = False
+    #CSRF_COOKIE_SECURE = False
     
     # Browser security
     SECURE_BROWSER_XSS_FILTER = True
