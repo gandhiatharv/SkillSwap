@@ -652,3 +652,50 @@ class FeedbackViewSet(viewsets.ModelViewSet):
         if self.action == 'create':
             return [permissions.AllowAny()]
         return [permissions.IsAuthenticated()]
+    
+
+
+
+
+# Add these imports at the top if not already there
+from rest_framework.decorators import api_view, permission_classes
+from rest_framework.permissions import AllowAny
+from rest_framework.response import Response
+from pathlib import Path
+import json
+
+# Add this view at the bottom
+@api_view(['GET'])
+@permission_classes([AllowAny])
+def load_skills_data(request):
+    """One-time endpoint to load skills - DELETE AFTER USE"""
+    json_path = Path(__file__).resolve().parent / 'skills.json'
+    
+    if not json_path.exists():
+        return Response({'error': f'File not found at {json_path}'}, status=404)
+    
+    with open(json_path, 'r', encoding='utf-8') as f:
+        skills_data = json.load(f)
+    
+    created = 0
+    skipped = 0
+    
+    for skill in skills_data:
+        obj, created_now = Skill.objects.get_or_create(
+            name=skill['name'],
+            defaults={
+                'category': skill.get('category', ''),
+                'subcategory': skill.get('subcategory', '')
+            }
+        )
+        if created_now:
+            created += 1
+        else:
+            skipped += 1
+    
+    return Response({
+        'status': 'success',
+        'created': created,
+        'skipped': skipped,
+        'total': Skill.objects.count()
+    })
