@@ -35,7 +35,7 @@ urlpatterns = [
     path('auth/register/', RegisterView.as_view(), name='register'),
     path('auth/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('auth/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
-    path('load-skills-data/', load_skills_data, name='load-skills-data'),
+    #path('load-skills-data/', load_skills_data, name='load-skills-data'),
     # Current user endpoint (must be before router to avoid conflict with users/<id>/)
     path('users/me/', CurrentUserView.as_view(), name='current-user'),
     
