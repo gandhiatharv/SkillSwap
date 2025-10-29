@@ -119,3 +119,4 @@ ipython_config.py
 # Celery
 celerybeat-schedule
 celerybeat.pid
+.vercel
