@@ -10,7 +10,14 @@ export default function MessageList() {
 
   useEffect(() => {
     loadConversations();
+    const interval = setInterval(() => {
+      loadConversation();
+    }, 7000);
+    
+    return () => clearInterval(interval);
   }, []);
+
+    
 
   const loadConversations = async () => {
     setLoading(true);
