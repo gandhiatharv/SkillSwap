@@ -163,7 +163,7 @@ export default function ChatInterface() {
         
         {/* Info about video calling */}
         <div className="text-sm text-gray-500 italic">
-          💡 Tip: Visit Dashboard or Skills to start a video call
+          💡 Tip: Reload the page to check for new messages, and visit Dashboard or Skills to start a video call
         </div>
       </div>
 
