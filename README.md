@@ -50,22 +50,7 @@ We match people who can teach each other's desired skills—creating a **mutual 
 4. **Message & video call** to schedule sessions
 5. **Start learning!**
 
-### Run Locally
-```bash
-# Clone the repository
-git clone https://github.com/gandhiatharv/SkillSwap.git
-cd SkillSwap
 
-# Install dependencies
-pip install -r requirements.txt
-npm install
-
-# Run backend
-python app.py
-
-# Run frontend (in new terminal)
-npm start
-```
 
 ---
 
